@@ -1,0 +1,13 @@
+/* miniprogram/pages/map/map.wxss */
+.imageLocation{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.locationPic{
+  height: 25vh;
+  width: 100vw;
+  position:relative;
+}
+

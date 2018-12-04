@@ -1,0 +1,39 @@
+<!--index.wxml-->
+<!-- <import src="../../pages/tabbarComponent/tabbar.wxml"/>
+<template is="tabBar" data="{{tabBar:bindData.tabBar}}"/> -->
+<view class="container">
+
+<!--首页-->
+<view class = "homepage">
+
+  <image class = "homepage" src = 'https://improxy.icbc.com.cn/sjzxshrel1/ecc_dashboard/wechatpic/homepageBackground.png'>
+  </image>
+  <view class = "homepage-selection">
+    <view class = "view1"  bindtap = 'clickArrangement'>
+      <image class = "icon" src = '../../images/icon/viewArrangement.png'></image>
+      <!-- <text class = "title_view1" style = "position:absolute;left:10%;top:70%">行程安排</text> -->
+    </view>
+    <view class = "view2"   bindtap = 'clickSeat'>
+      <image class = "icon" src = '../../images/icon/viewSeat.png'></image>
+      <!-- <text class = "title_view2" style = "position:absolute;left:43%;top:70%">座位图</text> -->
+    </view>
+    <view class = "view3"  bindtap = 'clickMap'>
+      <image class = "icon" src = '../../images/icon/viewMap.png'></image>
+      <!-- <text class = "title_view3" style = "position:absolute;left:73%;top:70%">园区地图</text> -->
+    </view>
+    <view class = "view4" bindtap = 'clickNote'>
+      <image class = "icon" src = '../../images/icon/viewNotes.png'></image>
+      <!-- <text class = "title_view4" style = "position:absolute;left:6%;top:175%">会议须知</text> -->
+    </view>
+    <view class = "view5"  bindtap = 'clickWeather'>
+      <image class = "icon" src = '../../images/icon/viewWeather.png'></image>
+      <!-- <text class = "title_view4" style = "position:absolute;left:45%;top:175%">天气</text> -->
+    </view>
+    <view class = "view6" bindtap = 'clickInformation'>
+      <image class = "icon" src = '../../images/icon/viewInformation.png'></image>
+      <!-- <text class = "title_view4" style = "position:absolute;left:73%;top:175%">相关资料</text> -->
+    </view>
+  </view>
+</view>
+
+</view>

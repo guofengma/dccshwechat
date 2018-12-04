@@ -1,0 +1,7 @@
+<!--miniprogram/pages/information/information.wxml-->
+<import src="../../pages/tabbarComponent/tabbar.wxml"/>
+<template is="tabBar" data="{{tabBar:bindData.tabBar}}"/>
+<!-- <view class = "imgList" wx:for='{{imgArr}}'  wx:key='*this'>
+  <image class = 'seatPic' src='{{item}}' data-list='{{imgArr}}' data-src ='{{item}}' bindtap = 'preview'  style='height: 100vh;width: 80vw;'>
+  </image>
+</view> -->

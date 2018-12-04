@@ -1,0 +1,7 @@
+<!--miniprogram/pages/weather/weather.wxml-->
+<import src="../../pages/tabbarComponent/tabbar.wxml"/>
+<template is="tabBar" data="{{tabBar:bindData.tabBar}}"/>
+<!-- <text>miniprogram/pages/weather/weather.wxml</text> -->
+<view class='cont'>
+  <text>{{weatherData}}</text>
+</view>

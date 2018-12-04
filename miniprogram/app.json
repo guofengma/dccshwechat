@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/feedback/feedback",
+    "pages/signup/signup",
+    "pages/arrangement/arrangement",
+    "pages/map/map",
+    "pages/weather/weather",
+    "pages/seat/seat",
+    "pages/note/note",
+    "pages/information/information"
+  ],
+  "tabBar": {
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/icon/homepage.png",
+        "selectedIconPath": "images/icon/homepage.png"
+      },
+      {
+        "pagePath": "pages/feedback/feedback",
+        "text": "联系我们",
+        "iconPath": "images/icon/feedback.png",
+        "selectedIconPath": "images/icon/feedback.png"
+      },
+      {
+        "pagePath": "pages/signup/signup",
+        "text": "签到",
+        "iconPath": "images/icon/signup.png",
+        "selectedIconPath": "images/icon/signup.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle": "black"
+  },
+  "cloud": true
+}

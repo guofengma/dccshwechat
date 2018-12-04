@@ -1,0 +1,15 @@
+<!--pages/signup/signup.wxml-->
+<!-- <block wx:for="{{participants}}" wx:for-item="item">
+  <view>
+    {{item.name}}
+  </view>
+</block> -->
+<!-- <import src="../../pages/tabbarComponent/tabbar.wxml"/>
+<template is="tabBar" data="{{tabBar:bindData.tabBar}}"/> -->
+<view class = 'view'>
+  <view>
+    <image class = 'icon' src = '../../images/icon/signup.png'> </image>
+  </view>
+  <input class = "input" type = "text" placeholder="请输入您的姓名进行签到" bindinput="getName"></input>
+  <button class = "button" bindtap='getSignup' form-type='summit'>签到</button>
+</view>

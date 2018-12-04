@@ -1,0 +1,8 @@
+<!--pages/feedback/feedback.wxml-->
+<!-- <import src="../../pages/tabbarComponent/tabbar.wxml"/>
+<template is="tabBar" data="{{tabBar:bindData.tabBar}}"/> -->
+<!-- <text bindtap = 'call' data-set = '021-28989275'>谢英捷：021-28989275</text> -->
+<view class = "imgList" wx:for='{{imgArr}}' wx:key='*this'>
+  <image class = 'seatPic' src='{{item}}' data-list='{{imgArr}}' data-src ='{{item}}' bindtap = 'preview'  style='height: 100vh;width: 80vw;'>
+  </image>
+</view>

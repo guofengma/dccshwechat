@@ -1,0 +1,21 @@
+/* pages/signup/signup.wxss */
+
+.input{
+  display: flex;
+  justify-content: center;
+  width:50vw;
+  height: 10vh;
+}
+
+.button{
+  width: 100vw
+}
+
+view{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

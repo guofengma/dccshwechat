@@ -1,0 +1,25 @@
+<!--miniprogram/pages/map/map.wxml-->
+<import src="../../pages/tabbarComponent/tabbar.wxml"/>
+<template is="tabBar" data="{{tabBar:bindData.tabBar}}"/>
+<view class = 'imageLocation'>
+  <view class = 'viewJiading'>
+      <text>嘉定</text>
+      <image class = 'locationPic' data-location = 'jiading' src = 'https://s1.ax1x.com/2018/11/22/FPcHIA.jpg' bindtap='openLocation'>
+    </image>
+  </view>
+  <view class = 'viewWaigaoqiao'>
+    <text>外高桥</text>
+    <image class = 'locationPic' data-location = 'waigaoqiao' src = 'https://s1.ax1x.com/2018/11/22/FPcTVH.jpg' bindtap='openLocation'></image>
+  </view>
+  <view class = 'viewXisanqi'>
+  <text>西三旗</text>
+  <image class = 'locationPic' data-location = 'xisanqi' src = 'https://s1.ax1x.com/2018/11/22/FPcIqe.jpg' bindtap='openLocation'></image>
+  </view>
+
+
+  <!-- <button bindtap='getlocation'>获取位置</button>
+  <input type = "text" value = '{{location.longitude}}'>经度</input>
+  <input type = "text" value = '{{location.latitude}}'>纬度</input>
+  <button bindtap='openLocation' form-type='summit'>查看位置</button> -->
+
+</view>
