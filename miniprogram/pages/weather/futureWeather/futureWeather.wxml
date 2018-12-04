@@ -1,0 +1,20 @@
+<!--pages/weather/futureWeather/futureWeather.wxml-->
+<!-- <text>pages/weather/futureWeather/futureWeather.wxml</text> -->
+<scroll-view scroll-y style="height: 100vh;">
+  <view class='bg'>
+    <block wx:for="{{futureWeather}}" wx:key="{{index}}">
+      <view class='weatherList'>
+          <view class='date'>{{item.date}}</view>
+          <view class='image'>
+            <image class='day' src='{{item.dayPictureUrl}}'></image>
+            <image class='night' src='{{item.nightPictureUrl}}'></image>
+          </view>
+          <view class='message'>
+            <view class='temperature'>{{item.temperature}}</view>
+            <view class='weather'>{{item.weather}}</view>
+            <view class='wind'>{{item.wind}}</view>
+          </view>
+      </view> 
+    </block>
+  </view>
+</scroll-view>

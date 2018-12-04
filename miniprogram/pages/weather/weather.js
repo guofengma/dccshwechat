@@ -7,7 +7,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-    weatherData:''
+    weatherData:'',
+    futureWeather: ''
   },
 
   /**
@@ -29,10 +30,13 @@ Page({
       console.log(data)
     };
     var success = function (data) {
+      //console.log(data)
       var weatherData = data.currentWeather[0];
+      var futureWeather = JSON.stringify(data.originalData.results[0].weather_data);
       weatherData = '城市：' + weatherData.currentCity + '\n' + 'PM2.5：' + weatherData.pm25 + '\n' + '日期：' + weatherData.date + '\n' + '温度：' + weatherData.temperature + '\n' + '天气：' + weatherData.weatherDesc + '\n' + '风力：' + weatherData.wind + '\n';
       that.setData({
-        weatherData: weatherData
+        weatherData: weatherData,
+        futureWeather: futureWeather
       });
     };
     // 发起weather请求
@@ -52,8 +56,6 @@ Page({
     //   }
     // })
   },
-
-
 
   /**
    * 生命周期函数--监听页面初次渲染完成

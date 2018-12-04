@@ -2,6 +2,17 @@
 <import src="../../pages/tabbarComponent/tabbar.wxml"/>
 <template is="tabBar" data="{{tabBar:bindData.tabBar}}"/>
 <!-- <text>miniprogram/pages/weather/weather.wxml</text> -->
-<view class='cont'>
+<!-- <view class='cont'>
   <text>{{weatherData}}</text>
+</view> -->
+
+<view class="weather"> 
+  <text>{{weatherData}}</text>
+  <navigator style='width:400rpx;display:inline-block;margin-top:30rpx;' url="../weather/futureWeather/futureWeather?futureWeather={{futureWeather}}"> 
+    <button class="weui-btn" style='color:#666;width:400rpx;'>
+      未来3天天气
+    </button>
+  </navigator>
 </view>
+
+

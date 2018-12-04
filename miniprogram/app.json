@@ -8,7 +8,8 @@
     "pages/weather/weather",
     "pages/seat/seat",
     "pages/note/note",
-    "pages/information/information"
+    "pages/information/information",
+    "pages/weather/futureWeather/futureWeather"
   ],
   "tabBar": {
     "position": "bottom",

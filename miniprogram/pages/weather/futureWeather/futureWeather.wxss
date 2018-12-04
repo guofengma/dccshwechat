@@ -1,0 +1,44 @@
+/* pages/weather/futureWeather/futureWeather.wxss */
+.bg{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.weatherList{
+  width: 90%;
+  margin: 10px 0;
+  padding: 20px 0;
+  box-shadow: 0px 0px 30px rgba(0,0,0,.3);
+  border-radius: 8px;
+  text-align: center;
+}
+.weatherList .date{
+  
+}
+.weatherList .image image{
+  width: 50px;
+  height: 40px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.weatherList .image .day{
+  margin-left: -10px;
+}
+.weatherList .image .night{
+  margin-left: 10px;
+}
+.weatherList .message{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.weatherList .message .temperature{
+  
+}
+.weatherList .message .weather{
+  margin-left: 10px;
+}
+.weatherList .message .wind{
+  margin-left: 10px;
+}
