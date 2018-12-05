@@ -6,7 +6,7 @@
 }
 
 .locationPic{
-  height: 25vh;
+  height: 22.5vh;
   width: 100vw;
   position:relative;
 }

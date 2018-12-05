@@ -63,6 +63,9 @@ openLocation:function(e){
       value.longitude = 40.06105
       value.latitude = 116.37627
       break;
+    case "qingpupeixun":
+      value.longitude = 31.08692
+      value.latitude = 120.90511
   }
 
 
